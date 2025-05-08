@@ -17,10 +17,10 @@ intent.messages = True
 bot = commands.Bot(command_prefix="!", intents=intent)
 
 reminders = [
-    {"time": (21, 21), "message": "Reminder 1: Do your laundry!"},  # Hour, Minute, Message
-    {"time": (10, 0), "message": "Reminder 2: Water the plants."},
-    {"time": (18, 60), "message": "Reminder 3: Check your emails."},
-    {"date": "2024-04-15", "time": (14, 30), "message": "Reminder 4: Special Event!"},  # Example of a date-specific reminder
+    {"time": (19, 00), "message": "Dont Forget to update the log books!"},  # Hour, Minute, Message
+#    {"time": (10, 0), "message": "Reminder 2: Water the plants."},
+#    {"time": (18, 60), "message": "Reminder 3: Check your emails."},
+    {"date": "2025-05-12", "time": (7,30 ), "message": "Seeds should be in today!"},  # Example of a date-specific reminder
 ]
 
 
