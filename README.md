@@ -1,4 +1,4 @@
-# Discord Reminder Bot
+# Discord Reminder Bot:)
 
 This Python bot sends reminders to a Discord channel at specified times or dates
 
