@@ -18,7 +18,7 @@ START_DATE = datetime(2025, 5, 14)  # Change this to the desired starting date
 
 # Reminders list
 reminders = [
-    {"time": (19, 00), "message": "Dont forget to update the logs!:3"},
+    {"time": (19, 00), "message": "Dont forget to update the logs!"},
     #{"date": "2025-05-12", "time": (7, 30), "message": "Seeds should be in today!"},  # Date-specific reminder
 ]
 
@@ -54,7 +54,7 @@ async def send_reminders():
         # Check daily counter reminder at 9 AM
         if now.hour == 11 and now.minute == 0:
             days_passed = (now.date() - START_DATE.date()).days
-            message = f"Good morning! Its day {days_passed} of the grow!:3"
+            message = f"Good morning! Its day {days_passed} of the grow! :3"
             await channel.send(message)
 
         await asyncio.sleep(60)  # Check every minute
